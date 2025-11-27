@@ -47,8 +47,8 @@ A modern, responsive movie search application built with React, Vite, and Tailwi
 3. **Set up environment variables**
    Create a `.env` file in the root directory and add your TMDB API credentials:
    ```env
-   VITE_TMDB_ACCESS_TOKEN=your_read_access_token_here
-   VITE_TMDB_BASE_URL=https://api.themoviedb.org/3
+   TMDB_ACCESS_TOKEN=your_read_access_token_here
+   TMDB_BASE_URL=https://api.themoviedb.org/3
    ```
 
 4. **Start the development server**

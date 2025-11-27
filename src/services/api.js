@@ -1,5 +1,5 @@
-const BASE_URL = import.meta.env.VITE_TMDB_BASE_URL || "https://api.themoviedb.org/3";
-const ACCESS_TOKEN = import.meta.env.VITE_TMDB_ACCESS_TOKEN;
+const BASE_URL = import.meta.env.TMDB_BASE_URL || "https://api.themoviedb.org/3";
+const ACCESS_TOKEN = import.meta.env.TMDB_ACCESS_TOKEN;
 
 export async function searchMovies(query) {
   const res = await fetch(`${BASE_URL}/search/movie?query=${encodeURIComponent(query)}&language=en-US&page=1`, {
